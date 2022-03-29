@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="formValidation.css">
+</head>
+
+<div class="h1">
+<h1>Registration Form</h1>
+</div>
+
+<body>
+    <form>
+        <div class="flex-container">
+            <div class="first-container"></div>
+            <label for="userID">User ID*</label>
+                <input type="text" id="userID" name="userID" placeholder="Required length of 5 to 12 characters">
+            <label for="password">Password*</label>
+                <input type="password" id="password" name="password" placeholder="Required length of 7 to 12 characters">    
+            <label for="name">Name*</label>
+                <input type="name" id="name" name="name" placeholder="Required">
+            <label for="address">Address</label>
+                <input type="address" id="address" name="address" placeholder="Optional">
+            <label for="">Country:</label>
+             
+            <select name="country" id="country">
+                <option value="country">South Africa</option>
+                <option value="country">Botswana</option>
+                <option value="country">Democratic Republic of Congo</option>
+                <option value="country">Egypt</option>
+                <option value="country">Eswatini</option>
+                <option value="country">Ethiopia</option>
+                <option value="country">Kenya</option>
+                <option value="country">Lesotho</option>
+                <option value="country">Malawi</option>
+                <option value="country">Mozambique</option>
+                <option value="country">Namibia</option>
+                <option value="country">Nigeria</option>
+                <option value="country">Other</option>
+
+
+                <input type="country" id="country" name="country" placeholder="Other">
+            <label for="email">Postal Code*</label>
+                <input type="postalCode" id="postalCode" name="postalCode" placeholder="Required, numeric only">
+            <label for="email">Email*</label>
+                <input type="email" id="email" name="email" placeholder="Required, Valid email only">
+                
+                <div>
+                    <p>
+                      <form action="">
+                        <input type="radio" name="gender" value="male">Male<br>
+                        <input type="radio" name="gender" value="female">Female<br>
+                        <input type="radio" name="gender" value="other">Other<br>
+                        </form>
+                    </p>
+                    <p>
+                        <form action="checkbox">
+                        <input type="checkbox" name="english" value="english">English<br>
+                        <input type="checkbox" name="non-english" value="non-english">Non-English<br> 
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                        <label for="bio">About:</label><br>
+                        <textarea name="bio" id="bio" cols="48" rows="7" placeholder="Optional"></textarea>
+                      </p>
+                  </div>
+                  <p>
+                <button class="submit-button">submit form</button>
+                    
+                    </div>
+                  </p>
+        </div>
+        <div>
+        </div>
+    </form>   
+</body>
+</html>
