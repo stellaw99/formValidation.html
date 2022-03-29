@@ -32,22 +32,22 @@ body{
 }
 
 .button{
-    border:none;
+  border:none;
 }
 .submit-form{
-    border: none;
+  border: none;
 }
 
 .submit-button{
-    width: 400px;
-    height: 30px;
-    color: rgba(102, 163, 165, 0.762);
-    border-radius: 4px;
-    transition: ease-out 0.3s;
-    font-size: 1rem;
-    outline: none;
-    position: relative;
-    z-index: 1;
+  width: 400px;
+  height: 30px;
+  color: rgba(102, 163, 165, 0.762);
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 1rem;
+  outline: none;
+  position: relative;
+  z-index: 1;
   }
   
   .submit-button:hover{
