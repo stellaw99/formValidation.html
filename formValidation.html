@@ -13,21 +13,22 @@
 </div>
 
 <body>
-    <form>
+    <form action="/action_page.php" method="get" id="form1">
         <div class="flex-container">
             <div class="first-container"></div>
+            
             <label for="userID">User ID*</label>
-                <input type="submit border:none" id="userID" name="userID" placeholder="Required length of 5 to 12 characters">
+                <input type="userID" id="userID" name="userID" placeholder="Required length of 5 to 12 characters">
             <label for="password">Password*</label>
                 <input type="password" id="password" name="password" placeholder="Required length of 7 to 12 characters">    
             <label for="name">Name*</label>
                 <input type="name" id="name" name="name" placeholder="Required">
             <label for="address">Address</label>
                 <input type="address" id="address" name="address" placeholder="Optional">
-            <label for="">Country:</label>
+            <label for="">Country</label>
              
-            <select name="country" id="country">
-                <option value="country">South Africa</option>
+            <select class="country" name="country" id="country">
+                <option value="country" color="rgb(75, 75, 75)">South Africa</option>
                 <option value="country">Botswana</option>
                 <option value="country">Democratic Republic of Congo</option>
                 <option value="country">Egypt</option>
@@ -50,31 +51,28 @@
                 
                 <div>
                     <p>
-                      <form action="">
+                    <form action="">
                         <input type="radio" name="gender" value="male">Male<br>
                         <input type="radio" name="gender" value="female">Female<br>
-                        <input type="radio" name="gender" value="other">Other<br>
-                        </form>
+                        <input type="radio" name="gender" value="other">Other<br></form>
                     </p>
                     <p>
-                        <form action="checkbox">
+                    <form action="checkbox">
                         <input type="checkbox" name="english" value="english">English<br>
-                        <input type="checkbox" name="non-english" value="non-english">Non-English<br> 
+                        <input type="checkbox" name="non-english" value="non-english">Non-English<br></form>
                     </p>
                   </div>
                   <div>
                     <p>
                         <label for="bio">About:</label><br>
-                        <textarea name="bio" id="bio" cols="48" rows="7" placeholder="Optional"></textarea>
+                        <textarea class="bio" name="bio" id="bio" cols="48" rows="6" placeholder="Optional"></textarea>
                       </p>
                   </div>
-                  <p>
-                <button type="submit" form="nameform" value="Submit">Submit</button>
-                    
-                    </div>
-                  </p>
-        </div>
-        <div>
+                  <div>
+                    <p>
+                        <button type="submit" form="form1" value="Submit">Submit</button>
+                    </p>
+                  </div>       
         </div>
     </form>   
 </body>

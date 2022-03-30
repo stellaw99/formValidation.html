@@ -6,7 +6,6 @@ body{
     margin: 4rem;
     line-height: 30px;
     font-size: 14px;
-    border: none;
 }
 
 .h1{
@@ -20,29 +19,30 @@ body{
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     width: 400px;
-    height: 900px;
+    height: 700px;
 }
 
 .first-container{
-    font-size: 14px;
+    font-size: 13px;
     display:flex;
     flex-direction: column;
     line-height: 22px;
-    border: none;
 }
 
-.button{
-  border:none;
-}
-.submit-form{
-  border: none;
+
+.bio{
+  border: 1px solid rgba(47, 47, 47, 0.808);
+  border-radius: 4px;
+  padding: 10px;
 }
 
-.submit-button{
+.submit{
   width: 400px;
   height: 30px;
-  color: rgba(102, 163, 165, 0.762);
+  color: rgb(255, 255, 255);
+  background-color: rgba(102, 163, 165, 0.762);
   border-radius: 4px;
+  border: none;
   transition: ease-out 0.3s;
   font-size: 1rem;
   outline: none;
@@ -50,12 +50,12 @@ body{
   z-index: 1;
   }
   
-  .submit-button:hover{
+  .submit:hover{
     color: #fff;
     cursor: pointer;
   }
   
-  .submit-button:before {
+  .submit:before {
     transition: 0.5s all ease;
     position: absolute;
     top: 0;
@@ -68,7 +68,7 @@ body{
     border-radius: 4px;
   }
   
-  .submit-button:hover:before {
+  .submit:hover:before {
     transition: 0.5s all ease;
     left: 0;
     right: 0;
